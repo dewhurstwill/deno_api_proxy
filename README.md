@@ -5,10 +5,9 @@
 * Backend Framework
   * [Deno + Fresh](https://fresh.deno.dev/)
 
-The code is in the [app](/app/) directory. See 
-the README there for setup directions.
+The code is in the [app](/app/) directory. See the README there for setup 
+directions.
 
 ---
 
 ## Tasks and Todos
-
