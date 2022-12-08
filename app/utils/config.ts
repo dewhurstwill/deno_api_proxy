@@ -15,8 +15,8 @@ const envConfig: Config = {
   environment: Deno.env.get(EnvNames.DENO_ENV) || "",
   proxiedApis: {
     nasa: {
-      endpoint: Deno.env.get(EnvNames.NASA_API_ENDPOINT) || '',
-      apiKey: Deno.env.get(EnvNames.NASA_API_KEY) || ''
+      endpoint: Deno.env.get(EnvNames.NASA_API_ENDPOINT) || "",
+      apiKey: Deno.env.get(EnvNames.NASA_API_KEY) || ""
     }
   }
 };

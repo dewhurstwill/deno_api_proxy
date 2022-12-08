@@ -12,7 +12,6 @@ const manifest = {
   routes: {
     "./routes/_404.tsx": $0,
     "./routes/_500.tsx": $1,
-    "./routes/api/joke.ts": $2,
     "./routes/api/nasa/apod.ts": $3,
   },
   islands: {},
