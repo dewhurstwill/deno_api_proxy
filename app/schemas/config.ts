@@ -20,7 +20,7 @@ export const ConfigSchema = z.object({
   proxiedApis: z.object({
     nasa: z.object({
       endpoint: z.string().url(),
-      apiKey: z.string()
+      apiKey: z.string(),
     }),
   }),
 });
