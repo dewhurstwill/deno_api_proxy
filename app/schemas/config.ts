@@ -21,8 +21,8 @@ export const ConfigSchema = z.object({
     nasa: z.object({
       endpoint: z.string().url(),
       apiKey: z.string()
-    })
-  })
+    }),
+  }),
 });
 
 export type Config = z.infer<typeof ConfigSchema>;
